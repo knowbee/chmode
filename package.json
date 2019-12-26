@@ -1,0 +1,40 @@
+{
+  "name": "chmodr",
+  "version": "0.0.1",
+  "description": "CLI tool for calculating/generating unix permissions for a given file",
+  "main": "index.js",
+  "bin": {
+    "chmodr": "./index.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "test": "nyc mocha ./test/* --exit",
+    "fix-lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "clear": "^0.1.0",
+    "cli-progress": "^3.4.0",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "coveralls": "3.0.9",
+    "eslint": ">=6.7.2",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1"
+  },
+  "keywords": [
+    "chmod",
+    "unix permission",
+    "permission calculator",
+    "chmoder",
+    "chmodr"
+  ],
+  "author": "Igwaneza Bruce <knowbeeinc@gmail.com>",
+  "license": "MIT"
+}
