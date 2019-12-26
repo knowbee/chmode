@@ -1,10 +1,10 @@
 {
-  "name": "chmodr",
-  "version": "0.0.1",
+  "name": "chmode",
+  "version": "1.0.0",
   "description": "CLI tool for calculating/generating unix permissions for a given file",
   "main": "index.js",
   "bin": {
-    "chmodr": "./index.js"
+    "chmode": "./index.js"
   },
   "scripts": {
     "lint": "eslint .",
@@ -16,6 +16,7 @@
     "chalk": "^3.0.0",
     "clear": "^0.1.0",
     "cli-progress": "^3.4.0",
+    "commander": "^4.0.1",
     "figlet": "^1.2.4",
     "inquirer": "^7.0.1"
   },
@@ -33,7 +34,7 @@
     "unix permission",
     "permission calculator",
     "chmoder",
-    "chmodr"
+    "chmode"
   ],
   "author": "Igwaneza Bruce <knowbeeinc@gmail.com>",
   "license": "MIT"

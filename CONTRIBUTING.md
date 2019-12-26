@@ -1,11 +1,11 @@
 # How to contribute
 
-It is a paramount to the development of `chmodr` that the community is empowered to make changes and get them into the library. Here are some guidelines for making a cake walk through this process.
+It is a paramount to the development of `chmode` that the community is empowered to make changes and get them into the library. Here are some guidelines for making a cake walk through this process.
 
 ## Reporting issues
 
 To report a bug, request a feature, or even ask a question, make use of the GitHub Issues
-section for [chmodr][issues]. When submitting an issue please take the following steps:
+section for [chmode][issues]. When submitting an issue please take the following steps:
 
 1. **Seach for existing issues.** Your question or bug may have already been answered or fixed, be sure to search the issues first before putting in a duplicate issue.
 
@@ -24,9 +24,9 @@ To setup for making changes you will need to take a few steps, we've outlined th
 
 1. Ensure you have [node][node] and npm installed.
 
-2. Fork the [chmodr][chmodr] repository, if you are unsure how to do this GitHub has a guides for the [command line][fork-repo] and for the [GitHub Client][fork-client].
+2. Fork the [chmode][chmode] repository, if you are unsure how to do this GitHub has a guides for the [command line][fork-repo] and for the [GitHub Client][fork-client].
 
-3. Next, run `npm install` from within the clone of your fork. That will install all dependencies necessary to build chmodr.
+3. Next, run `npm install` from within the clone of your fork. That will install all dependencies necessary to build chmode.
 
 ### Making a Change
 
@@ -75,17 +75,17 @@ You can run these tests by running `npm run test` from the command line. If you 
 
 ### Submitting Your Change
 
-After you have made and tested your change, commit and push it to your fork. Then, open a Pull Request from your fork to the main `chmodr` repository on the branch you used in the `Making a Change` section of this document.
+After you have made and tested your change, commit and push it to your fork. Then, open a Pull Request from your fork to the main `chmode` repository on the branch you used in the `Making a Change` section of this document.
 
 ## Quickie Code Style Guide
 
-`chmodr` adheres stricty to the [eslint airbnb](https://www.npmjs.com/package/eslint-config-airbnb-base) style guide. Read below for a quickie style guide:
+`chmode` adheres stricty to the [eslint airbnb](https://www.npmjs.com/package/eslint-config-airbnb-base) style guide. Read below for a quickie style guide:
 
 - Rely heavily on ES5 style of writing code.
 - Indentation of two spaces
 
-[issues]: https://github.com/knowbee/chmodr/issues
-[chmodr]: https://github.com/knowbee/chmodr
+[issues]: https://github.com/knowbee/chmode/issues
+[chmode]: https://github.com/knowbee/chmode
 [repl]: http://repl.it
 [node]: https://nodejs.org/en/
 [fork-repo]: https://help.github.com/articles/fork-a-repo/
@@ -93,7 +93,7 @@ After you have made and tested your change, commit and push it to your fork. The
 
 ## Support
 
-`chmodr` supports node.js.
+`chmode` supports node.js.
 Bear in mind this when altering and/or extending the sources.
 
 # Important
