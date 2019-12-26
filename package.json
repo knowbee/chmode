@@ -36,6 +36,14 @@
     "chmoder",
     "chmode"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knowbee/chmode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/knowbee/chmode/issues"
+  },
+  "homepage": "https://github.com/knowbee/chmode#readme",
   "author": "Igwaneza Bruce <knowbeeinc@gmail.com>",
   "license": "MIT"
 }
