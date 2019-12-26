@@ -21,6 +21,10 @@ or
 yarn global add chmode
 ```
 
+## Preview
+
+![keza](https://res.cloudinary.com/pcesar/image/upload/v1577357413/pcesar/chmode.gif)
+
 ## Using chmode
 
 #### Command Line
