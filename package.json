@@ -1,6 +1,6 @@
 {
   "name": "chmode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool for calculating/generating unix permissions for a given file",
   "main": "index.js",
   "bin": {

@@ -69,7 +69,7 @@ if (file.length === 1 && file[0] && fs.existsSync(file[0])) {
 }
 
 function helper() {
-  chmode.version("1.0.0");
+  chmode.version("1.0.1");
   chmode.on("--help", function() {
     console.log("Examples:");
     console.log("  $ chmode --help");
